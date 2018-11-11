@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ivianuu.fragmentchangehandlers.app.counter.CounterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/counter_layout"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Up"/>
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Down"/>
+
+    <Button
+        android:id="@+id/replace_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Replace up"/>
+
+    <Button
+        android:id="@+id/pop_to_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pop to root"/>
+
+    <Button
+        android:id="@+id/pop_to_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pop to five"/>
+
+    <Button
+        android:id="@+id/ten_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ten up"/>
+
+    <Button
+        android:id="@+id/five_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Five down"/>
+
+    <Button
+        android:id="@+id/set_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set three"/>
+
+    <Button
+        android:id="@+id/shuffle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shuffle"/>
+
+    <Button
+        android:id="@+id/remove_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove second"/>
+
+    <FrameLayout
+        android:id="@+id/child_router_container"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+</com.ivianuu.fragmentchangehandlers.app.counter.CounterLayout>
